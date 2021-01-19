@@ -13,7 +13,7 @@ import com.message.api.exception.MalformedMessageException;
 class TestMessageRetreiver {
 
 	@Autowired
-	MessageRetreiverService messageRetreiverService;
+	MessageRecuperatorService messageRetreiverService;
 
 	@Test
 	void testNoPhaseShift() throws MalformedMessageException {

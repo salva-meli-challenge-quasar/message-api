@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import com.message.api.exception.MalformedMessageException;
 
 @Service
-public class MessageRetreiverServiceImpl implements MessageRetreiverService {
+public class MessageRecuperatorServiceImpl implements MessageRecuperatorService {
 
 	@Override
 	public String retreive(String[][] messages) throws MalformedMessageException {
