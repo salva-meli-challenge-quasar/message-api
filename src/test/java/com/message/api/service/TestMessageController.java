@@ -14,14 +14,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import com.message.api.controller.MessageController;
-
 @SpringBootTest
 @AutoConfigureMockMvc
 class TestMessageController {
-
-	@Autowired
-	MessageController messageController;
 
 	@Autowired
 	MockMvc mockMvc;
